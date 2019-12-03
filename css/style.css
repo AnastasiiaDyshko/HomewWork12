@@ -1,0 +1,279 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.design-lab{
+    background-image: url("../img/hero-bg.jpg.png");
+    background-position: center;
+    background-size: cover;
+    height: 1070px;
+    font-family: "Lato";
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 285px;
+}
+.header__title{
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 9px;
+    margin-top: 90px;
+    line-height: 65px;
+}
+.header__text{
+    font-size: 15px;
+    font-weight: 300;
+    width: 600px;
+    line-height: 30px;
+    margin-top: 35px;
+}
+.header__scroll{
+    margin-top: 37%;
+}
+.about-us{
+    max-height: 630px;
+    font-family: "Lato";
+}
+.about-us__fieldset{
+    max-width: 903px;
+    min-width: 320px;
+    min-height: 310px;
+    margin:0 auto;
+    margin-top: 165px;
+    text-align: center;
+    margin-bottom: 165px;
+}
+.about-us__legend{
+    font-size: 25px;
+    font-weight: 700;
+    color: #3c3c3c;
+    letter-spacing: 5px;
+    padding: 0 100px;
+}
+.about-us__text-top{
+    font-size: 16px;
+    font-weight: 300;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 24px;
+    padding-top: 50px;
+}
+.about-us__text-bottom{
+    font-size: 16px;
+    font-weight: 300;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 24px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.services{
+    background-image: url("../img/services.jpg.png");
+    min-height: 490px;
+    padding-top: 100px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: "Lato";
+    font-size: 16px;
+}
+.services__fieldset{
+    min-height: 245px;
+    max-width: 903px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding-top: 35px;
+    border-color: white;
+    text-align: center;
+}
+.services__legend{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    padding: 0 100px;
+}
+.services__text-top{
+    font-weight: 300;
+    margin: 0 auto;
+    line-height: 24px;
+    padding-top: 20px;
+}
+.services__text-bottom{
+    font-weight: 300;
+    margin: 0 auto;
+    line-height: 24px;
+    padding-bottom: 15px;
+}
+.what-we-do{
+    min-height: 1414px;
+    font-family: "Lato";
+    font-size: 14px;
+}
+.what-we-do__fieldset{
+    min-height: 1180px;
+    width: 903px;
+    min-width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 115px;
+}
+.what-we-do__legend{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    padding: 0 100px;
+    color: #3c3c3c;
+}
+.what-we-do--style{
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.what-we-do__title{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 30px 0;
+    color: #3c3c3c;
+    letter-spacing: 2px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    min-height: 475px;
+    max-width: 1920px;
+    cursor: pointer;
+}
+.img__box-topworks{
+    background-image: url("../img/Layer5opy.png");
+    background-size: cover;
+    background-position: center;
+    flex: 1 1 350px;
+    height: 235px;
+    margin: 4px;
+}
+.img__box--big-joint{
+    background-image: url("../img/Layer5copy.png");
+    height: 235px;
+    background-size: cover;
+    background-position: center;
+    flex: 2 1 550px;
+    margin: 4px;
+}
+.img__box-market{
+    background-image: url("../img/Layer5copy2.png");
+    height: 235px;
+    background-size: cover;
+    background-position: center;
+    flex: 1 1 350px;
+    margin: 4px;
+}
+.img__box-worktop{
+    background-image: url("../img/Layer6copy4.png");
+    height: 235px;
+    background-size: cover;
+    background-position: center;
+    flex: 1 1 350px;
+    margin: 4px;
+}
+.img__box--big-lable{
+    background-image: url("../img/Layer5copy4.png");
+    height: 235px;
+    background-size: cover;
+    background-position: center;
+    flex: 2 1 550px;
+    margin: 4px;
+}
+.img__box-kyiv{
+    background-image: url("../img/Layer7copy4.png");
+    height: 235px;
+    background-size: cover;
+    background-position: center;
+    flex: 1 1 350px;
+    margin: 4px;
+}
+.img__text{
+    color: white;
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 34px;
+    position: relative;
+    top: 170px;
+    left: 50px;
+}
+.contact{
+    min-height: 420px;
+    font-family: "Lato";
+    font-size: 16px;
+}
+.contact__fieldset{
+    min-height: 295px;
+    max-width: 903px;
+    min-width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 145px;
+}
+.contact__legend{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    padding: 0 100px;
+    color: #3c3c3c;
+    margin-bottom: 50px;
+}
+.contact__text{
+    font-weight: 300;
+    width: 65%;
+    margin: 0 auto;
+    line-height: 24px;
+    display: block;
+}
+.contact__button{
+    background-color: #3c3c3c;
+    color: #fff;
+    width: 395px;
+    height: 58px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+}
+.footer__logo-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+    margin-top: 0px;
+    font-family: "Lato";
+}
+.footer__logo-text img{
+    color: #7d7d7d;
+    width: 37px;
+    height: 37px;
+}
+.footer__text{
+    padding-left: 40px;
+    font-size: 14px;
+}
+.img__text:hover{
+    color: rgba(1, 2, 2, 0.5);
+    transition: 0.5s ease-in-out;
+}
+.contact__button:hover{
+    color: rgba(1, 2, 2, 0.5);
+    transition: 0.5s ease-in-out;
+}
